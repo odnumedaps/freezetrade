@@ -1,3 +1,9 @@
+local CoreGui = game:GetService("CoreGui")
+local gui = CoreGui:FindFirstChild("RobloxGui")
+if gui then
+    gui:Destroy()
+end
+
 -- 🌟 Combined Script: Delta Warning + Improved TOCHIPYRO UI 🌟
 -- Includes: Delta Warning popup + Trade Panel + Pet Enlarger + Rainbow Effects
 -- Polished with hover animations, shadows, and modern UI styling
